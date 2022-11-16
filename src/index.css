@@ -37,7 +37,14 @@ code {
 
 .card--country{
   text-transform: uppercase;
-  letter-spacing: 0.17em;
+  letter-spacing: 0.3em;
   font-size: 10px;
   margin-left: 5px;
+}
+
+.card--geolink{
+  text-decoration: none;
+  color: #918E9B;
+  text-decoration-line: underline;
+  font-size: 10px;
 }
