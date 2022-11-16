@@ -2,11 +2,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  box-sizing: border-box;
 }
 
 .navbar{
@@ -16,6 +12,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 
 }
 
@@ -25,26 +22,47 @@ code {
   margin-left: 8px;
   font-size: 15px;
 }
-
 .card{
-  display: flex;
-  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
 
 }
+.card--container{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .card--image{
-  max-width: 300px;
+  width: 200px;
+  height: 240px;
+  border-radius: 5px;
+  margin-left: 4rem;
 }
 
 .card--country{
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 18px;
+  margin-left: 8px;
 }
-
+.card--location_img{
+  width: 10px;
+}
 .card--geolink{
   text-decoration: none;
   color: #918E9B;
   text-decoration-line: underline;
-  font-size: 10px;
+  font-size: 18px;
+}
+.card--properties{
+  margin-left: 20px;
+}
+
+.card--description{
+  font-size: 18px;
+  line-height: 150%;
+  text-align: left;
 }
