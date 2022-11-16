@@ -18,7 +18,7 @@ export default [
         startDate: "08 Jul, 2018",
         endDate: "18 Jul, 2018",
         description: "Mount Vesuvius forms an iconic backdrop to the Bay of Naples, Italy, and is one of Europe's most active volcanoes. It is best known for an eruption in AD 79 that buried the Roman settlements of Pompeii and Herculaneum under metres of ash.",
-        imageUrl: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNzMzOTgxMA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+        imageUrl: "https://images.unsplash.com/photo-1506852889966-0ec40a8bf2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
 
     },
 

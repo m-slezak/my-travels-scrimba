@@ -28,5 +28,16 @@ code {
 
 .card{
   display: flex;
+  flex-direction: row;
 
+}
+.card--image{
+  max-width: 300px;
+}
+
+.card--country{
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  font-size: 10px;
+  margin-left: 5px;
 }
