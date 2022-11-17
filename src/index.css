@@ -36,8 +36,8 @@ body {
 }
 
 .card--image{
-  width: 200px;
-  height: 240px;
+  width: 220px;
+  height: 260px;
   border-radius: 5px;
   margin-left: 4rem;
 }
@@ -55,14 +55,19 @@ body {
   text-decoration: none;
   color: #918E9B;
   text-decoration-line: underline;
-  font-size: 18px;
+  font-size: 1.4rem;
+  margin-left: 1.2rem;
 }
 .card--properties{
-  margin-left: 20px;
+  margin-left: 1.6rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
 }
 
 .card--description{
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 150%;
   text-align: left;
 }
